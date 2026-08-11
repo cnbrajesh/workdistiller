@@ -1,0 +1,32 @@
+[
+  {
+    "id": "role-consultant",
+    "type": "role",
+    "title": "Consultant / Collaborator with Dr. Nagendra",
+    "description": "Presentations, proposals, invoices, quotes, meeting notes, marketing collaterals."
+  },
+  {
+    "id": "role-founder-nafdec",
+    "type": "role",
+    "title": "Founding Team Member, NaFDEc",
+    "description": "Techno-functional founding role, director seat, marketing challenges."
+  },
+  {
+    "id": "role-emperors-pov-builder",
+    "type": "role",
+    "title": "Builder of Emperor's PoV",
+    "description": "Own knowledge graph platform and foundation for future passive income."
+  },
+  {
+    "id": "role-writer",
+    "type": "role",
+    "title": "Writer",
+    "description": "Thinking, reflecting, writing notes, and moving toward full-time writing."
+  },
+  {
+    "id": "role-parent",
+    "type": "role",
+    "title": "Guiding Parent",
+    "description": "Parenting, joint projects with children, guidance, and shared meaning."
+  }
+]
