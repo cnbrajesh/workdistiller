@@ -1,0 +1,32 @@
+[
+  {
+    "id": "goal-financial-stability",
+    "type": "goal",
+    "title": "Maintain financial stability",
+    "description": "Earn through consulting and paid work."
+  },
+  {
+    "id": "goal-passive-income",
+    "type": "goal",
+    "title": "Create passive income",
+    "description": "Build assets that generate income over time."
+  },
+  {
+    "id": "goal-founder-growth",
+    "type": "goal",
+    "title": "Grow as a founder and director",
+    "description": "Build meaningful stake and leadership in NaFDEc."
+  },
+  {
+    "id": "goal-writing-transition",
+    "type": "goal",
+    "title": "Transition into full-time writing",
+    "description": "Develop writing practice, voice, and body of work."
+  },
+  {
+    "id": "goal-life-balance",
+    "type": "goal",
+    "title": "Maintain energy and life balance",
+    "description": "Avoid burnout and preserve fulfillment."
+  }
+]
