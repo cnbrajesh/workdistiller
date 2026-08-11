@@ -1,0 +1,43 @@
+thought_types:
+  task: action
+  note: note
+  meta: meta
+
+stage_tags:
+  stage/backlog: backlog
+  stage/planning: planning
+  stage/executing: executing
+  stage/review: review
+  stage/completed: completed
+
+priority_tags:
+  priority/q1: urgent_important
+  priority/q2: not_urgent_important
+  priority/q3: urgent_not_important
+  priority/q4: not_urgent_not_important
+
+cognitive_load_tags:
+  load/low: low
+  load/medium: medium
+  load/high: high
+  load/deep: deep
+
+role_tags:
+  role/consultant: role-consultant
+  role/nafdec-founder: role-founder-nafdec
+  role/emperors-pov-builder: role-emperors-pov-builder
+  role/writer: role-writer
+  role/parent: role-parent
+
+goal_tags:
+  goal/financial-stability: goal-financial-stability
+  goal/passive-income: goal-passive-income
+  goal/founder-growth: goal-founder-growth
+  goal/writing-transition: goal-writing-transition
+  goal/life-balance: goal-life-balance
+
+initiative_tags:
+  initiative/dr-nagendra: initiative-dr-nagendra
+  initiative/nafdec: initiative-nafdec
+  initiative/emperors-pov: initiative-emperors-pov
+  initiative/family-projects: initiative-family-projects
