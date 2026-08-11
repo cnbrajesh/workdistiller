@@ -1,0 +1,34 @@
+[
+  {
+    "id": "initiative-dr-nagendra",
+    "type": "initiative",
+    "title": "Support Dr. Nagendra's Work",
+    "description": "Paid consulting work including presentations, proposals, invoices, and meeting notes.",
+    "role_ids": ["role-consultant"],
+    "goal_ids": ["goal-financial-stability"]
+  },
+  {
+    "id": "initiative-nafdec",
+    "type": "initiative",
+    "title": "Build NaFDEc",
+    "description": "Startup work with Srinath Rao, techno-functional founding role.",
+    "role_ids": ["role-founder-nafdec"],
+    "goal_ids": ["goal-founder-growth"]
+  },
+  {
+    "id": "initiative-emperors-pov",
+    "type": "initiative",
+    "title": "Build Emperor's PoV",
+    "description": "Knowledge graph platform and foundation for future endeavors.",
+    "role_ids": ["role-emperors-pov-builder", "role-writer"],
+    "goal_ids": ["goal-passive-income", "goal-writing-transition"]
+  },
+  {
+    "id": "initiative-family-projects",
+    "type": "initiative",
+    "title": "Family and Children Projects",
+    "description": "Joint projects with children that combine guidance, meaning, and possible future assets.",
+    "role_ids": ["role-parent"],
+    "goal_ids": ["goal-life-balance"]
+  }
+]
