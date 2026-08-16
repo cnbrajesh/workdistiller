@@ -1,40 +1,29 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
+```
+# Database
+data/*.sqlite3
 
 # Environment
 .env
 .env.local
+*.env.*
 
-# Local databases
-*.sqlite
-*.sqlite3
-*.db
+# Dependencies
+.venv/
+venv/
+__pycache__/
+*.pyc
+*$py.class
 
-# Private data
-data/private/*
-!data/private/.gitkeep
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Editor
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Logs
-logs/
-*.log
-
-# Temporary capture data
-tmp/
-temp/
+```

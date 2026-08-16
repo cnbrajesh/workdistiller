@@ -33,6 +33,7 @@ class Stage(str, Enum):
     PLANNING = "planning"
     EXECUTING = "executing"
     REVIEW = "review"
+    ACCEPTANCE = "acceptance"
     COMPLETED = "completed"
     FADED = "faded"
     ARCHIVED = "archived"

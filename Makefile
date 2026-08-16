@@ -1,4 +1,4 @@
-.PHONY: install dev test lint api watch
+.PHONY: install dev test lint api watch ui seed
 
 install:
 	python -m venv .venv
@@ -18,3 +18,9 @@ api:
 
 watch:
 	python scripts/watch_capture_folder.py
+
+seed:
+	PYTHONPATH=. python ui/seed_sample_data.py
+
+ui:
+	PYTHONPATH=. python ui/launch.py
