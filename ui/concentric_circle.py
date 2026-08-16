@@ -24,7 +24,7 @@ from PyQt5.QtGui import (
     QColor, QFont, QPainter, QPen, QBrush, QPalette, QWheelEvent, QMouseEvent
 )
 from PyQt5.QtWidgets import (
-    QApplication, QGraphicsView, QGraphicsScene, QGraphicsItem,
+    QApplication, QGraphicsView, QGraphicsScene, QGraphicsItem, QGraphicsObject,
     QWidget, QVBoxLayout, QHBoxLayout, QSplitter, QFrame,
     QLabel, QLineEdit, QTextEdit, QComboBox, QPushButton,
     QSlider, QGroupBox, QFormLayout, QScrollArea, QToolBar,
@@ -246,7 +246,7 @@ class QuadrantWedge(QGraphicsItem):
                         Qt.AlignCenter, label_text)
 
 
-class TaskBubble(QGraphicsItem):
+class TaskBubble(QGraphicsObject):
     """Represents a task as a bubble in the radial grid."""
     
     clicked = pyqtSignal(object)  # Emits the node when clicked
@@ -263,8 +263,8 @@ class TaskBubble(QGraphicsItem):
         self.start_angle = start_angle
         self.span_angle = span_angle
         
-        self.setFlag(QGraphicsItem.ItemIsMovable, True)
-        self.setFlag(QGraphicsItem.ItemSendsGeometryChanges, True)
+        self.setFlag(QGraphicsObject.GraphicsItemFlag.ItemIsMovable, True)
+        self.setFlag(QGraphicsObject.GraphicsItemFlag.ItemSendsGeometryChanges, True)
         self.setAcceptHoverEvents(True)
         self.setZValue(10)
         
