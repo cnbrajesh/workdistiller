@@ -179,7 +179,7 @@ class PhaseRing(QGraphicsItem):
         painter.setPen(Qt.NoPen)
         
         # Draw annulus (ring)
-        path = painter.path()
+        path = QPainterPath()
         path.addEllipse(QRectF(-self.outer_radius, -self.outer_radius,
                               self.outer_radius * 2, self.outer_radius * 2))
         path.addEllipse(QRectF(-self.inner_radius, -self.inner_radius,
